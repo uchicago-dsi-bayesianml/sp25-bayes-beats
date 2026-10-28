@@ -1,0 +1,20 @@
+# Data, audio and model files are never committed
+jamendo_data/
+jamendo_dataset/
+processed_lofi_data/
+open-data/
+music_vibe_data.json
+processed_music_vibe_data.json
+*.ckpt
+*.safetensors
+*.zip
+exps/
+checkpoints/
+
+# Environments and tooling
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.idea/
+.DS_Store
